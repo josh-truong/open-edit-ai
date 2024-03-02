@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "am/48Qie2uePc3TRvYqJhRz1JtoNA0EWoDMWPZppfttG0a7mDgP4/R3BujNY6rshs4eA5HmVChqXf5/QpiuvDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\OpenEditAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joshk\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\ffmpeg.autogen\\6.1.0\\ffmpeg.autogen.6.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
