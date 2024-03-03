@@ -5,11 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenEditAI" xmlns:local1="clr-namespace:OpenEditAI.Code"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Background="#FF2D2D30">
     <Window.DataContext>
         <local1:MainViewModel/>
     </Window.DataContext>
     <Grid>
-        <Image Source="{Binding ImageSource}" Margin="180,1,180,1"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Selected, Mode=OneWay}" Background="Azure" Foreground="White" />
+        <Button Grid.Row="0" Grid.Column="1" Command="{Binding BrowseCommand}" Content="Browse" Width="96" Background="#FF007ACC" Foreground="White" />
+
+        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" Text="{Binding Prompt, Mode=TwoWay}" TextWrapping="Wrap" Background="#FF3C3C3C" Foreground="White" />
+
+        <TextBox Grid.Row="2" Grid.RowSpan="5" Grid.Column="0" Text="{Binding Log, Mode=OneWay}" IsReadOnly="True" Background="#FF3C3C3C" Foreground="White" />
+        <Button Grid.Row="6" Grid.Column="1" Command="{Binding ProcessVideoCommand}" Content="Process" Width="100" Height="50" Background="#FF007ACC" Foreground="White" />
     </Grid>
 </Window>

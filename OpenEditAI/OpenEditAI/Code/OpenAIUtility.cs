@@ -10,11 +10,14 @@ namespace OpenEditAI.Code
 {
     public class OpenAIUtility
     {
+        private MainViewModel _viewModel;
+        public OpenAIUtility(MainViewModel viewModel)
+        {
+            _viewModel = viewModel;
+        }
+
         public string GetTranscription(string filepath)
         {
-            // This is temporary to ensure I don't run the api call
-            throw new NotImplementedException();
-
             string scriptPath = @"C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\Scripts\transcribe.py";
 
             // Specify the path to the Python executable in your venv
@@ -22,7 +25,7 @@ namespace OpenEditAI.Code
 
             ProcessStartInfo start = new ProcessStartInfo();
             start.FileName = pythonPath; // Use the Python executable from the venv
-            start.Arguments = string.Format("{0} {1}", scriptPath, filepath);
+            start.Arguments = string.Format("\"{0}\" \"{1}\"", scriptPath, filepath); // Wrap the paths in quotes
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
             start.CreateNoWindow = true;
@@ -40,11 +43,8 @@ namespace OpenEditAI.Code
             return output;
         }
 
-        public List<int> GetExtractedSubtitles(string filepath)
+        public List<int> GetExtractedSubtitles(string filepath, string prompt)
         {
-            // This is temporary to ensure I don't run the api call
-            throw new NotImplementedException();
-
             string scriptPath = @"C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\Scripts\subtitle_extractor.py";
 
             // Specify the path to the Python executable in your venv
@@ -52,26 +52,33 @@ namespace OpenEditAI.Code
 
             ProcessStartInfo start = new ProcessStartInfo();
             start.FileName = pythonPath; // Use the Python executable from the venv
-            start.Arguments = string.Format("{0} {1}", scriptPath, filepath);
+            start.Arguments = string.Format("\"{0}\" \"{1}\" \"{2}\"", scriptPath, filepath, prompt + " | Format the list of id integers from the JSON file into a C# array.");
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
             start.CreateNoWindow = true;
 
             string output = string.Empty;
-            using (Process process = Process.Start(start))
+            using (Process? process = Process.Start(start))
             {
-                // Read the output stream first and then wait.
-                string result = process.StandardOutput.ReadToEnd();
-                process.WaitForExit();
+                if (process != null)
+                {
+                    // Read the output stream first and then wait.
+                    string result = process.StandardOutput?.ReadToEnd();
+                    process.WaitForExit();
 
-                output = result;
+                    output = result ?? string.Empty;
+                }
             }
-            return ExtractIntegersFromString(output);
+
+            var ids = ExtractIntegersFromString(output);
+            _viewModel.Log = $"Extracted IDs: \n\t{string.Join(", ", ids)}";
+            return ids;
         }
 
         private List<int> ExtractIntegersFromString(string raw)
         {
-            return raw.Trim('[', ']').Split(',').Select(s => int.Parse(s.Trim().Trim('\''))).ToList();
+
+            return raw.Trim('[', ']').Split(',').Select(s => int.Parse(s.Trim().Trim('\''))).OrderBy(i => i).ToList();
         }
     }
 }

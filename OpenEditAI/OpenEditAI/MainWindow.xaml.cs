@@ -12,9 +12,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 using static System.Net.Mime.MediaTypeNames;
 using System.Diagnostics;
+using System.Linq;
+using OpenEditAI.Models;
+using System.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace OpenEditAI
 {
@@ -23,38 +26,15 @@ namespace OpenEditAI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private FFmpegUtility _ffmpegUtility;
-        private OpenAIUtility _openAIUtility;
+        
         private MainViewModel _viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
 
             _viewModel = new MainViewModel();
-            _ffmpegUtility = new FFmpegUtility();
-            _openAIUtility = new OpenAIUtility();
-
             this.DataContext = _viewModel;
-
-            // _openAIUtility.GetTranscription(@"C:\Users\joshk\Downloads\audio.mp3");
-            //_openAIUtility.GetExtractedSubtitles(@"C:\Users\joshk\Downloads\audio.json");
-
-            //ProcessVideo();
-            // _ffmpegUtility.SliceVideo(@"C:\Users\joshk\Downloads\video.mp4", @"C:\Users\joshk\Downloads\video-edit.mp4", "00:00:10", "00:00:20");
-            //_ffmpegUtility.ExtractAudio(@"C:\Users\joshk\Downloads\video.mp4", @"C:\Users\joshk\Downloads\audio.mp3");
-        }
-
-        public async void ProcessVideo()
-        {
-            string videoPath = @"C:\Users\joshk\Downloads\video.mp4";
-            var videoInfo = await FFProbe.AnalyseAsync(videoPath);
-            var videoDuration = videoInfo.Duration;
-            for (var time = TimeSpan.Zero; time < videoDuration; time += TimeSpan.FromSeconds(1))
-            {
-                Trace.WriteLine(time);
-                _viewModel.ImageSource = _ffmpegUtility.ExtractFrames(videoPath, time);
-                await Task.Delay(1000);
-            }
         }
     }
 }
