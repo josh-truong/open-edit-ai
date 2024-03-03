@@ -10,6 +10,6 @@
         <local1:MainViewModel/>
     </Window.DataContext>
     <Grid>
-        <Image Source="{Binding ImageSource}" Width="200" Height="200" Margin="300,84,300,150"/>
+        <Image Source="{Binding ImageSource}" Margin="180,1,180,1"/>
     </Grid>
 </Window>

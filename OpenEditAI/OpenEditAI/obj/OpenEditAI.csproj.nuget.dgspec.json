@@ -49,9 +49,13 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
-            "FFmpeg.AutoGen": {
+            "FFMpegCore": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[5.1.0, )"
+            },
+            "FFMpegCore.Extensions.System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

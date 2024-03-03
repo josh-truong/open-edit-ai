@@ -21,26 +21,6 @@ namespace OpenEditAI.Code
             }
         }
 
-        public MainViewModel()
-        {
-            ChangeImageSource();
-        }
-
-        [RelayCommand]
-        private void ChangeImageSource()
-        {
-            string newImagePath = @"C:\Users\joshk\Downloads\1707829626461.jpg";
-            BitmapImage bitmapImage = new();
-            bitmapImage.BeginInit();
-            bitmapImage.UriSource = new Uri(newImagePath, UriKind.Absolute);
-            bitmapImage.EndInit();
-            ImageSource = bitmapImage;
-            Trace.WriteLine(ImageSource);
-        }
-
-        int CalculateDaysBetweenDates(DateTime date) { 
-        }
-
         #pragma warning disable CS8612
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string? name = null)

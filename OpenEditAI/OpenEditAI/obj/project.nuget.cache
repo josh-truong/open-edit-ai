@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "am/48Qie2uePc3TRvYqJhRz1JtoNA0EWoDMWPZppfttG0a7mDgP4/R3BujNY6rshs4eA5HmVChqXf5/QpiuvDg==",
+  "dgSpecHash": "FXKQFsHYZKO+UyswYUooECtgKFwWZUB85t0Y1allaP2HeQUd2C5/4iZ9BXYQ/pQHAdNkvx4dbVelNQsefdnqaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\OpenEditAI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshk\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
-    "C:\\Users\\joshk\\.nuget\\packages\\ffmpeg.autogen\\6.1.0\\ffmpeg.autogen.6.1.0.nupkg.sha512"
+    "C:\\Users\\joshk\\.nuget\\packages\\ffmpegcore\\5.1.0\\ffmpegcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\ffmpegcore.extensions.system.drawing.common\\5.0.0\\ffmpegcore.extensions.system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\instances\\3.0.0\\instances.3.0.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\joshk\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

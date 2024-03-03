@@ -3,10 +3,14 @@ C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\OpenEditAI.runtimeconfig.json
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\OpenEditAI.dll
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\OpenEditAI.pdb
-C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\FFmpeg.AutoGen.dll
+C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\FFMpegCore.dll
+C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\FFMpegCore.Extensions.System.Drawing.Common.dll
+C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\Instances.dll
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\OpenEditAI.csproj.AssemblyReference.cache
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\OpenEditAI_MarkupCompile.cache
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\OpenEditAI_MarkupCompile.lref
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\MainWindow.baml
@@ -22,5 +26,3 @@ C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\OpenEditAI.pdb
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\OpenEditAI.genruntimeconfig.cache
 C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\ref\OpenEditAI.dll
-C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\joshk\OneDrive\Documents\Github\open-edit-ai\OpenEditAI\OpenEditAI\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
