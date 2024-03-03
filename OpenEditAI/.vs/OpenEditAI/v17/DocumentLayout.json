@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\scripts\\transcribe.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\scripts\\transcribe.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\scripts\\subtitle_extractor.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\scripts\\subtitle_extractor.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\code\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "transcribe.py",
+              "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Scripts\\transcribe.py",
+              "RelativeDocumentMoniker": "OpenEditAI\\Scripts\\transcribe.py",
+              "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Scripts\\transcribe.py",
+              "RelativeToolTip": "OpenEditAI\\Scripts\\transcribe.py",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-03T21:02:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "subtitle_extractor.py",
+              "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Scripts\\subtitle_extractor.py",
+              "RelativeDocumentMoniker": "OpenEditAI\\Scripts\\subtitle_extractor.py",
+              "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Scripts\\subtitle_extractor.py",
+              "RelativeToolTip": "OpenEditAI\\Scripts\\subtitle_extractor.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-03T21:02:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "OpenEditAI\\MainWindow.xaml.cs",
@@ -38,35 +72,38 @@
               "RelativeToolTip": "OpenEditAI\\MainWindow.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:59:27.381Z"
+              "WhenOpened": "2024-03-03T14:59:27.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OpenAIUtility.cs",
               "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\OpenAIUtility.cs",
               "RelativeDocumentMoniker": "OpenEditAI\\Code\\OpenAIUtility.cs",
               "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\OpenAIUtility.cs",
               "RelativeToolTip": "OpenEditAI\\Code\\OpenAIUtility.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAwEkAAAAyAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwEkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:37:56.143Z"
+              "WhenOpened": "2024-03-03T14:37:56.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\MainViewModel.cs",
               "RelativeDocumentMoniker": "OpenEditAI\\Code\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\MainViewModel.cs",
               "RelativeToolTip": "OpenEditAI\\Code\\MainViewModel.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGwAAAAMAAAA",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:07:45.703Z"
+              "WhenOpened": "2024-03-03T14:07:45.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "OpenEditAI\\MainWindow.xaml",
