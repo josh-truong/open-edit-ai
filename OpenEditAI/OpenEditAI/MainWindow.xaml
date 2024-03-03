@@ -25,7 +25,7 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
-        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Selected, Mode=OneWay}" Background="Azure" Foreground="White" />
+        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Selected, Mode=OneWay}" Background="Azure" Foreground="Black" />
         <Button Grid.Row="0" Grid.Column="1" Command="{Binding BrowseCommand}" Content="Browse" Width="96" Background="#FF007ACC" Foreground="White" />
 
         <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" Text="{Binding Prompt, Mode=TwoWay}" TextWrapping="Wrap" Background="#FF3C3C3C" Foreground="White" />
