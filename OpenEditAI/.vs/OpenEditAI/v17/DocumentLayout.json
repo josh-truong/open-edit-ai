@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\code\\ffmpegutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\code\\ffmpegutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|c:\\users\\joshk\\onedrive\\documents\\github\\open-edit-ai\\openeditai\\openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD5E2C-720A-4274-B077-8653B797F666}|OpenEditAI\\OpenEditAI.csproj|solutionrelative:openeditai\\code\\openaiutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FFmpegUtility.cs",
-              "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\FFmpegUtility.cs",
-              "RelativeDocumentMoniker": "OpenEditAI\\Code\\FFmpegUtility.cs",
-              "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\FFmpegUtility.cs",
-              "RelativeToolTip": "OpenEditAI\\Code\\FFmpegUtility.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwB4AAAAtAAAA",
+              "DocumentIndex": 1,
+              "Title": "OpenAIUtility.cs",
+              "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\OpenAIUtility.cs",
+              "RelativeDocumentMoniker": "OpenEditAI\\Code\\OpenAIUtility.cs",
+              "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\Code\\OpenAIUtility.cs",
+              "RelativeToolTip": "OpenEditAI\\Code\\OpenAIUtility.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T00:28:11.099Z",
+              "WhenOpened": "2024-03-03T03:03:24.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "OpenEditAI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\joshk\\OneDrive\\Documents\\Github\\open-edit-ai\\OpenEditAI\\OpenEditAI\\MainWindow.xaml.cs",
               "RelativeToolTip": "OpenEditAI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwDoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T19:43:55.091Z",
               "EditorCaption": ""

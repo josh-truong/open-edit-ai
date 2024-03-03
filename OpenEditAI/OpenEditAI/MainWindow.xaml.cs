@@ -24,16 +24,24 @@ namespace OpenEditAI
     public partial class MainWindow : Window
     {
         private FFmpegUtility _ffmpegUtility;
+        private OpenAIUtility _openAIUtility;
         private MainViewModel _viewModel;
         public MainWindow()
         {
             InitializeComponent();
+
             _viewModel = new MainViewModel();
             _ffmpegUtility = new FFmpegUtility();
+            _openAIUtility = new OpenAIUtility();
+
             this.DataContext = _viewModel;
 
+            // _openAIUtility.GetTranscription(@"C:\Users\joshk\Downloads\audio.mp3");
+            //_openAIUtility.GetExtractedSubtitles(@"C:\Users\joshk\Downloads\audio.json");
+
             //ProcessVideo();
-            _ffmpegUtility.SliceVideo(@"C:\Users\joshk\Downloads\video.mp4", @"C:\Users\joshk\Downloads\video-edit.mp4", "00:00:10", "00:00:20");
+            // _ffmpegUtility.SliceVideo(@"C:\Users\joshk\Downloads\video.mp4", @"C:\Users\joshk\Downloads\video-edit.mp4", "00:00:10", "00:00:20");
+            //_ffmpegUtility.ExtractAudio(@"C:\Users\joshk\Downloads\video.mp4", @"C:\Users\joshk\Downloads\audio.mp3");
         }
 
         public async void ProcessVideo()

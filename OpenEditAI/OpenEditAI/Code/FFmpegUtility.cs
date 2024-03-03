@@ -1,4 +1,6 @@
-﻿using FFMpegCore.Extensions.System.Drawing.Common;
+﻿using FFMpegCore;
+using FFMpegCore.Enums;
+using FFMpegCore.Extensions.System.Drawing.Common;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,21 +23,23 @@ namespace OpenEditAI.Code
             return ConvertBitmapToImageSource(bitmap);
         }
 
-        public void SliceVideo(string inputPath, string outputPath, string startTime, string duration)
+        public bool ExtractAudio(string inputPath, string outputPath)
         {
-            var startInfo = new ProcessStartInfo
-            {
-                FileName = "ffmpeg",
-                Arguments = $"-i {inputPath} -ss {startTime} -t {duration} -c copy {outputPath}",
-                RedirectStandardOutput = true,
-                RedirectStandardError = true,
-                UseShellExecute = false,
-                CreateNoWindow = true,
-            };
+            return FFMpeg.ExtractAudio(inputPath, outputPath);
+        }
 
-            using var process = new Process { StartInfo = startInfo };
-            process.Start();
-            process.WaitForExit();
+        public async Task SliceVideo(string inputPath, string outputPath, int start, TimeSpan duration)
+        {
+            await FFMpegArguments
+                .FromFileInput(inputPath, true, options => options
+                    .WithVideoCodec(VideoCodec.LibX264)
+                    .WithAudioCodec(AudioCodec.Aac)
+                    .WithStartNumber(start)
+                    .WithDuration(duration))
+                .OutputToFile(outputPath, false, options => options
+                    .WithVideoCodec(VideoCodec.LibX264)
+                    .WithAudioCodec(AudioCodec.Aac))
+                .ProcessAsynchronously();
         }
 
         public ImageSource ConvertBitmapToImageSource(Bitmap bitmap)
