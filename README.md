@@ -2,6 +2,9 @@
 
 [Devpost](https://devpost.com/software/openeditai)
 
+## Built with
+`C#` `Python` `OpenAI API` `gpt-3.5-turbo` `WhisperAI` `FFmpeg` `WPF` `.NET`
+
 ## Inspiration
 In today's fast-paced world, AI is paving the way for a new era. I'm jumping on board, eager to let it take care of the dull stuff so we can focus on what truly matters: making the most of our time.
 
