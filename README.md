@@ -1,5 +1,7 @@
 # open-edit-ai
 
+![](https://github.com/josh-truong/open-edit-ai/blob/main/demo.png)
+
 [Devpost](https://devpost.com/software/openeditai)
 
 ## Built with
